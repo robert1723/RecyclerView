@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/parent_layout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:id="@+id/circuler_image"
+        android:src="@mipmap/ic_launcher"
+        android:padding="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/circle_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circuler_image"
+        android:padding="5dp"
+
+        android:text="CANARA"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+0
+</RelativeLayout>
